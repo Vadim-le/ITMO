@@ -1,0 +1,25 @@
+cd /home/s307946/lab0
+cd carracosta3
+chmod 064 eelektrik
+chmod 577 beautifly
+chmod 404 magcargo
+cd ..
+chmod 357 carracosta3
+chmod 620 cherubi0
+chmod 620 clefable7
+chmod 444 poochyena9
+cd slowpoke4
+chmod 755 venipede
+chmod 570 zoroark
+chmod 046 timburr
+chmod 752 teddiursa
+chmod 404 starmie
+chmod 355 omanyte
+cd ..
+chmod 771 slowpoke4
+cd venonat6
+chmod 600 vanillite
+chmod 046 poochyena
+chmod 604 swanna
+cd ..
+chmod 770 venonat6

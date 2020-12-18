@@ -1,0 +1,42 @@
+mkdir lab0
+cd lab0
+mkdir carracosta3
+cd carracosta3
+echo >eelektrik
+echo "Живет Cave Freshwater" >eelektrik
+mkdir beautifly
+echo >magcargo
+echo "satk=8 sdef=8" >magcargo
+echo "spd=3" >>magcargo
+cd ..
+echo >cherubi0
+echo "Ходы Bullet Seed Giga Drain Helping Hand Natural Gift" >cherubi0
+echo "Rollout Seed Bomb Sleep Talk Snore Synthesis Worry Seed" >>cherubi0
+echo >clefable7
+ech0 "Тип" >clefable7
+echo "диеты Herbivore" >>clefable7
+echo >poochyena9
+echo "Развитые способности" >poochyena9
+echo "Rattled" >>poochyena9
+mkdir slowpoke4 
+cd slowpoke4
+mkdir venipede
+mkdir zoroark
+echo >timburr
+echo "Способности Focus Guts Sheer" >timburr
+echo "Force" >>timburr
+mkdir teddiursa
+echo >starmie 
+echo "weight=176.4 height=43.0 atk=8 def=9" >starmie
+mkdir omanyte
+cd ..
+mkdir venonat6
+cd venonat6
+echo >vanillite
+echo "Живет" >vanillite
+echo "Cave Taiga Tundra" >>vanillite
+echo >poochyena
+echo "satk=3 sdef=3 spd=4" >poochyena
+echo >swanna 
+echo "Тип покемона" >swanna
+echo "WATER FLYING" >>swanna

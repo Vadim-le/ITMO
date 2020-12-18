@@ -1,0 +1,23 @@
+cd
+cat lab0/venonat6/swanna lab0/venonat6/swanna > lab0/poochyena9_20
+cat lab0/clefable7 > lab0/carracosta3/eelektrikclefable
+ln lab0/poochyena9 lab0/carracosta3/magcargopoochyena
+cp -r lab0/venonat6  lab0/carracosta3/beautifly 
+ошибка:cp: lab0/carracosta3/beautifly/venonat6: Permission denied
+		chmod u+r lab0/carracosta3
+		chmod u+w lab0/carracosta3/beautifly
+ошибка:cp: cannot open lab0/venonat6/poochyena: Permission denied
+		chmod u+rw lab0/venonat6/poochyena
+cp -r lab0/venonat6  lab0/carracosta3/beautifly
+chmod u-r lab0/carracosta3
+chmod u-w lab0/carracosta3/beautifly
+chmod u-rw lab0/venonat6/poochyena
+cp lab0/cherubi0 lab0/carracosta3/beautifly
+ошибка:cp: cannot create lab0/carracosta3/beautifly/cherubi0: Permission denied
+		chmod u+r lab0/carracosta3
+		chmod u+w lab0/carracosta3/beautifly
+cp lab0/cherubi0 lab0/carracosta3/beautifly
+chmod u-r lab0/carracosta3
+chmod u-w lab0/carracosta3/beautifly
+ln -s /homes307946/lab0/carracosta3 Copy_63
+ln -s /homes307946/lab0/cherubi0 lab0/venonat6/poochyenacherubi

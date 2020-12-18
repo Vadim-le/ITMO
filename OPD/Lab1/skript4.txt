@@ -1,0 +1,10 @@
+cd /home/s307946/lab0
+(ls -R|grep "k$" | wc -m|sort -n)2>/dev/null 
+ls -R|grep "k$"| sort -nr
+cd home/s307946/lab0/venonat6
+(cat -n swanna poochyena poochyenacherubi vanillite|grep "r$") 2>/tmp/err
+ls -R|sort -nr 2>/tmp/err
+cd ..
+(ls -R|grep "^t"| sort -nr)2>/dev/null
+cd venonat6
+ls -R|sort -nr 2>/tmp/err 

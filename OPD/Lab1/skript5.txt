@@ -1,0 +1,6 @@
+rm /home/s307946/lab0/cherubi0
+rm /home/s307946/lab0/slowpoke4/timburr
+rm(ls -R|grep Copy_*)
+rm lab0/carracosta3/magcargopoochye*
+rmdir home/s307946/lab0/carracosta3
+rmdir /home/s307946/lab0/slowpoke4/omanyte
