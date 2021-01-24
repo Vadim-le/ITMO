@@ -1,0 +1,72 @@
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args) {
+Scanner in = new Scanner(System.in);
+String s = in.nextLine();
+int a = in.nextInt(), b = in.nextInt(), len = s.length();//считываем и возвращаем введенные числа
+
+// Проверка
+for (int i = 0; i < len; i++) {
+char c = s.charAt(i);//возвращаем символ по указанному индексу строки
+if (c >= '0' && c <= '9') {
+if (c - '0' >= a) {
+System.out.println("Error");
+return;
+}
+}
+else {
+if (c - 55 >= a) {
+System.out.println("Error");
+return;
+}
+}
+}
+
+//В сс с основанием 10
+int res = 0;
+for (int i = 0; i < len; i++) {
+char c = s.charAt(i);
+if (c >= '0' && c <= '9') {
+res = res + (c - '0') * (int) Math.pow(a, len - i - 1);
+}
+else {
+res = res + (c - 55) * (int) Math.pow(a, len - i - 1);
+}
+}
+
+//В сс с основанием b
+String otvet = "";
+while (res > 0) {
+char element = ' ';
+if ((res % b) >= 0 && (res % b) <= 9) {
+//System.out.println(res%b+48);
+element = (char) (res % b + 48);
+}
+else {
+switch (res % b) {
+case 10:
+element = 'A';
+break;
+case 11:
+element = 'B';
+break;
+case 12:
+element = 'C';
+break;
+case 13:
+element = 'D';
+break;
+case 14:
+element = 'E';
+break;
+case 15:
+element = 'F';
+break;
+}
+}
+otvet = element + otvet;
+res = res / b;
+}
+System.out.println(otvet);
+}
+}

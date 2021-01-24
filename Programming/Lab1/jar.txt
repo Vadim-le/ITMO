@@ -1,0 +1,5 @@
+javac Main.java
+создание Манифеста
+(Main-Class: Main)
+jar cfm Main.jar Manifest.txt Main.class
+ java -cp . Main
