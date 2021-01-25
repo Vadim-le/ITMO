@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+	mavenCentral()
+}
+
+dependencies {
+	implementation files('libs/Pokemon.jar')
+	testImplementation 'junit:junit:4.13'
+}
+
+application {
+    // Define the main class for the application.
+    mainClassName = 'main.Battleground'
+}
+jar {
+	manifest {
+		attributes 'Main-Class': 'main.Battleground'
+		attributes 'Class-Path': 'Pokemon.jar'
+	}
+}
+
+
